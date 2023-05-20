@@ -14,19 +14,19 @@ public class H7_2 {
         String day=input.nextLine();
 
         if (day.equalsIgnoreCase("sunday")){
-            System.out.println("1.gün");
+            System.out.println("Day 1");
         } else if (day.equalsIgnoreCase("monday")) {
-            System.out.println("2.gün");
+            System.out.println("Day 2");
         }else if (day.equalsIgnoreCase("tuesday")) {
-            System.out.println("3.gün");
+            System.out.println("Day 3");
         }else if (day.equalsIgnoreCase("wednesday")) {
-            System.out.println("4.gün");
+            System.out.println("Day 4");
         }else if (day.equalsIgnoreCase("thursday")) {
-            System.out.println("5.gün");
+            System.out.println("Day 5");
         }else if (day.equalsIgnoreCase("friday")) {
-            System.out.println("6.gün");
+            System.out.println("Day 6");
         }else if (day.equalsIgnoreCase("saturday")) {
-            System.out.println("7.gün");
+            System.out.println("Day 7");
         }else {
             System.out.println("that is not a day name.Please type a day name");
         }
